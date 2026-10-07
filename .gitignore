@@ -64,3 +64,6 @@ karma.conf.local.js
 .vscode/
 test-results/
 stats.json
+
+# release tgz
+apps/calendar/*.tgz
