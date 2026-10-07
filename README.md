@@ -1,3 +1,19 @@
+## BlockGrain Maintenance Fork
+
+This repository is a BlockGrain-owned fork of NHN TOAST UI Calendar. The upstream project is archived/read-only, so this fork exists to preserve source availability and provide a controlled release path for BlockGrain/Agrichain products.
+
+The original upstream README is preserved below for package documentation, attribution, and license continuity.
+
+Operational notes:
+
+- Keep upstream license and copyright notices intact.
+- The `2.1.3` GitHub Release asset is the exact upstream npm `@toast-ui/calendar@2.1.3` tarball, re-hosted by BlockGrain for dependency resilience.
+- Do not mutate the `2.1.3` baseline asset after verification. Publish any future BlockGrain fixes as a new release asset/version.
+- The npm package is produced from `apps/calendar`; the repository root is a monorepo and should not be used directly as an npm dependency.
+- AgriChain should consume the release tarball URL rather than relying on the archived upstream npm package path.
+
+---
+
 # ![TOAST UI Calendar](https://user-images.githubusercontent.com/26706716/39230183-7f8ff186-48a0-11e8-8d9c-9699d2d0e471.png)
 
 > 🍞📅 A JavaScript calendar that is full featured. Now your service just got the customizable calendar.
